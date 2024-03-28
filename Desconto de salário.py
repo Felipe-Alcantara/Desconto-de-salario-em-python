@@ -22,6 +22,6 @@ while True:
     except ValueError:
         print('Entrada inválida, digite um NÚMERO')
 
-print('Descontando {} do seu {} seu salário liquido será: {}'.format(descontos, salario_bruto, liquido))
+print('Descontando R${} do seu R${}, seu salário liquido será: R${}'.format(descontos, salario_bruto, liquido))
 print('Obrigado')
 print('By: Felixo')
